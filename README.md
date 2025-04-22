@@ -17,8 +17,12 @@ gibi durumlar için oldukça kullanışlı bir araç sağlar.
 Verilen bir `HTML` dosyasından:
 
 - `<link>`, `<script>`, `<meta>` gibi **harici kaynak etiketlerini** tespit eder.
+  
 - HTML içerisindeki **yorumları (`<!-- ... -->`)** çıkartır.
+  
 - Inline yazılmış **JavaScript** ve **CSS yorumlarını** ayıklar.
+
+  
 - Tüm bu verileri ayrı dosyalara kaydeder.
 
 ---
