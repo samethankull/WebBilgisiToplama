@@ -3,10 +3,12 @@
 
 Bu Python betiği, bir HTML dosyasını analiz ederek içerisindeki **harici bağlantıları** ve **yorum satırlarını** tespit eder. Bu verileri farklı dosyalara kaydederek özellikle:
 
+```bash
 - Web güvenlik analizi
 - Kaynak dosya taramaları
 - HTML temizlik işlemleri
 - SEO analizleri
+```
 
 gibi durumlar için oldukça kullanışlı bir araç sağlar.
 
@@ -18,12 +20,8 @@ gibi durumlar için oldukça kullanışlı bir araç sağlar.
 Verilen bir `HTML` dosyasından:
 
 - `<link>`, `<script>`, `<meta>` gibi **harici kaynak etiketlerini** tespit eder.
-  
 - HTML içerisindeki **yorumları (`<!-- ... -->`)** çıkartır.
-  
 - Inline yazılmış **JavaScript** ve **CSS yorumlarını** ayıklar.
-
-  
 - Tüm bu verileri ayrı dosyalara kaydeder.
 ```
 
