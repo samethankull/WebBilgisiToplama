@@ -39,7 +39,7 @@ python harici_link_toplayıcı.py
 Dosya Adı	İçerik
 
 ```bash
--external_links.txt	Harici linklerin URL'leri
+-external_links.txt	harici link Url'leri
 -external_tags.txt	Harici <link>, <script>, <meta> etiketleri
 -comments.txt	HTML yorumları (<!-- ... -->)
 -javascript_comments.txt	JavaScript yorum satırları (//, /* */)
