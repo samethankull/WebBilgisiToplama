@@ -14,6 +14,7 @@ gibi durumlar için oldukça kullanışlı bir araç sağlar.
 
 ## 🧩 Ne İşe Yarar?
 
+```bash
 Verilen bir `HTML` dosyasından:
 
 - `<link>`, `<script>`, `<meta>` gibi **harici kaynak etiketlerini** tespit eder.
@@ -24,13 +25,15 @@ Verilen bir `HTML` dosyasından:
 
   
 - Tüm bu verileri ayrı dosyalara kaydeder.
+```
 
 ---
 
 🚀 Kullanım
 
-
+```bash
 python harici_link_toplayıcı.py
+```
 
 ---
 
@@ -38,6 +41,7 @@ python harici_link_toplayıcı.py
 
 Dosya Adı	İçerik
 
+```bash
 -external_links.txt	Harici linklerin URL'leri
 
 -external_tags.txt	Harici <link>, <script>, <meta> etiketleri
@@ -47,13 +51,16 @@ Dosya Adı	İçerik
 -javascript_comments.txt	JavaScript yorum satırları (//, /* */)
 
 -css_comments.txt	CSS yorumları (/* ... */)
+```
 
 ---
 
 ### 1. Python'u Kur
 
+```bash
 Python 3.7+ sürümüne sahip olduğunuzdan emin olun.  
 [Python İndir](https://www.python.org/downloads/)
+```
 
 ### 2. Gerekli Paketleri Yükle
 
