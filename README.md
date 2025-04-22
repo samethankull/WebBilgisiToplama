@@ -18,7 +18,6 @@ gibi durumlar için oldukça kullanışlı bir araç sağlar.
 
 ```bash
 Verilen bir `HTML` dosyasından:
-
 - `<link>`, `<script>`, `<meta>` gibi **harici kaynak etiketlerini** tespit eder.
 - HTML içerisindeki **yorumları (`<!-- ... -->`)** çıkartır.
 - Inline yazılmış **JavaScript** ve **CSS yorumlarını** ayıklar.
@@ -41,13 +40,9 @@ Dosya Adı	İçerik
 
 ```bash
 -external_links.txt	Harici linklerin URL'leri
-
 -external_tags.txt	Harici <link>, <script>, <meta> etiketleri
-
 -comments.txt	HTML yorumları (<!-- ... -->)
-
 -javascript_comments.txt	JavaScript yorum satırları (//, /* */)
-
 -css_comments.txt	CSS yorumları (/* ... */)
 ```
 
