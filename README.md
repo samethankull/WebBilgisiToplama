@@ -1,29 +1,51 @@
-# WebBilgisiToplama
-# 🔍 Harici Link ve Yorum Ayıklayıcı (HTML Parser)
+# Web Site Bilgisi Toplama
+# 🔎 Harici Link ve Yorum Ayıklayıcı (HTML Parser)
 
-Bu Python betiği, verilen bir HTML dosyasındaki harici kaynakları (link, script, meta) ve yorumları (HTML, JavaScript, CSS) tespit ederek bunları ayrı dosyalara kaydeder. Özellikle güvenlik analizi, SEO taramaları ya da HTML optimizasyon çalışmaları için oldukça kullanışlıdır.
+Bu Python betiği, bir HTML dosyasını analiz ederek içerisindeki **harici bağlantıları** ve **yorum satırlarını** tespit eder. Bu verileri farklı dosyalara kaydederek özellikle:
 
-## 📂 Neler Yapıyor?
+- Web güvenlik analizi
+- Kaynak dosya taramaları
+- HTML temizlik işlemleri
+- SEO analizleri
 
-- Harici bağlantıları (`<link>`, `<script>`, `<meta>`) tespit eder ve ayrı bir dosyaya kaydeder.
-- Harici etiketleri (`<link>`, `<script>`, `<meta>`) ayrı bir dosyada tutar.
-- HTML yorumlarını `comments.txt` dosyasına yazar.
-- JavaScript yorumlarını `javascript_comments.txt` dosyasına yazar.
-- CSS yorumlarını `css_comments.txt` dosyasına yazar.
+gibi durumlar için oldukça kullanışlı bir araç sağlar.
 
 ---
 
-## 🛠 Kurulum Aşaması
+## 🧩 Ne İşe Yarar?
 
-### 1. Python Ortamını Kur
+Verilen bir `HTML` dosyasından:
 
-Python 3 yüklü değilse, [Python'un resmi sitesinden](https://www.python.org/downloads/) indirip kurabilirsin.
+- `<link>`, `<script>`, `<meta>` gibi **harici kaynak etiketlerini** tespit eder.
+- HTML içerisindeki **yorumları (`<!-- ... -->`)** çıkartır.
+- Inline yazılmış **JavaScript** ve **CSS yorumlarını** ayıklar.
+- Tüm bu verileri ayrı dosyalara kaydeder.
 
-### 2. Sanal Ortam (Opsiyonel ama önerilir)
+---
 
-Proje için izole bir ortam oluşturmak istersen:
+🚀 Kullanım
+python harici_link_parser.py
+
+---
+
+📁 Üretilen Dosyalar
+
+Dosya Adı	İçerik
+external_links.txt	Harici linklerin URL'leri
+external_tags.txt	Harici <link>, <script>, <meta> etiketleri
+comments.txt	HTML yorumları (<!-- ... -->)
+javascript_comments.txt	JavaScript yorum satırları (//, /* */)
+css_comments.txt	CSS yorumları (/* ... */)
+
+---
+
+### 1. Python'u Kur
+
+Python 3.7+ sürümüne sahip olduğunuzdan emin olun.  
+[Python İndir](https://www.python.org/downloads/)
+
+### 2. Gerekli Paketleri Yükle
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows için: venv\Scripts\activate
+pip install beautifulsoup4
 
