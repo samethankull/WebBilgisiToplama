@@ -28,6 +28,8 @@ Verilen bir `HTML` dosyasından:
 ---
 
 🚀 Kullanım
+
+
 python harici_link_parser.py
 
 ---
