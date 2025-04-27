@@ -50,10 +50,9 @@ Dosya Adı	İçerik
 
 ### 1. Python'u Kur
 
-```bash
+
 Python 3.7+ sürümüne sahip olduğunuzdan emin olun.  
 [Python İndir](https://www.python.org/downloads/)
-```
 
 ### 2. Gerekli Paketleri Yükle
 
